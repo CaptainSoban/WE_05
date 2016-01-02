@@ -1,0 +1,19 @@
+﻿Build started 6/15/2015 2:32:13 AM.
+     1>Project "D:\Resource\Project\WarpEngine\WarpEngine Test Version_0.0.5d\WarpEngine Test Version_0.0.5d\WarpEngine Test Version_0.0.5d.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Source\Programme\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Console.cpp DrawingProcess.cpp Matrix.cpp Object.cpp TertiaryArithmeticAlgorithms.cpp WindowsInterface.cpp
+         Camera.cpp
+         Console.cpp
+     1>Console.cpp(16): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Source\Programme\Microsoft Visual Studio 11.0\VC\include\stdio.h(233) : see declaration of 'freopen'
+         DrawingProcess.cpp
+     1>DrawingProcess.cpp(10): fatal error C1083: Cannot open include file: 'CL/cl.h': No such file or directory
+         Matrix.cpp
+         Object.cpp
+         TertiaryArithmeticAlgorithms.cpp
+         WindowsInterface.cpp
+     1>Done Building Project "D:\Resource\Project\WarpEngine\WarpEngine Test Version_0.0.5d\WarpEngine Test Version_0.0.5d\WarpEngine Test Version_0.0.5d.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.58
